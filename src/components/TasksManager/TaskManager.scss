@@ -1,0 +1,32 @@
+.TasksManager {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #C4C4C4;
+	border-radius: 5px;
+	padding: 23px;
+	font-family: "Open Sans", sans-serif;
+
+	&__title {
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 15px;
+	}
+
+	&__tasks {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: -10px;
+		margin-right: -10px;
+		margin-top: 15px;
+		flex-direction: column;
+		height: 500px;
+		flex-grow: 1;
+		//overflow-x: scroll;
+	}
+
+	&__task {
+		margin-right: 10px;
+		margin-bottom: 10px;
+		width: calc(50% - 10px);
+	}
+}

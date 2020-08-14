@@ -1,0 +1,31 @@
+.WeeksNavigation {
+	display: flex;
+	font-family: "Open Sans", sans-serif;
+	align-items: center;
+
+	&__weekDates {
+		padding: 10px;
+		border-radius: 5px;
+		border: 2px solid #FFD064;
+	}
+
+	&__button {
+		margin-left: 10px;
+		border: 1px solid #C4C4C4;
+		transition: 0.3s;
+		cursor: pointer;
+		background: none;
+		padding: 5px 10px;
+		border-radius: 5px;
+
+		&:hover {
+			background: #4F79E5;
+			color: white;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+}

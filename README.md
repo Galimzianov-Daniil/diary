@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Diary
+
+Simple app for planning your time
 
 ## Available Scripts
 

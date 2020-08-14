@@ -1,0 +1,16 @@
+.Button {
+	background: #20DA54;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "Open Sans", sans-serif;
+	border: none;
+	outline: none;
+	padding: 7px 20px;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+}

@@ -1,0 +1,97 @@
+.TaskCard {
+	box-sizing: border-box;
+	border: 1px #FFD064 solid;
+	border-radius: 5px;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+	cursor: pointer;
+	width: 100%;
+	overflow: hidden;
+	padding: 10px 10px 0 10px;
+	transition: 0.3s;
+
+	&__header {
+		display: flex;
+		align-items: center;
+	}
+
+	&:hover {
+
+		.TaskCard__ControlButtons {
+			min-width: 60px;
+		}
+
+	}
+
+	&__title {
+		overflow: hidden;
+		white-space: nowrap;
+		position: relative;
+		width: 100%;
+
+		&:after {
+			position: absolute;
+			content: "";
+			display: block;
+			right: 0;
+			top: 0;
+			height: 100%;
+			width: 10px;
+			background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 147.83%);
+		}
+
+	}
+
+	&_filledBG {
+		background: #FFD064;
+
+		.TaskCard__title:after {
+			background: #FFD064;
+		}
+		
+	}
+
+	&__formWrap {
+		padding-top: 10px;
+		overflow: hidden;
+		transition: 0.3s;
+		height: 0;
+	}
+
+	&__textArea {
+		font-family: "Open Sans", sans-serif;
+		width: 100%;
+		resize: none;
+		border-radius: 5px;
+	}
+
+	&__field {
+		box-sizing: border-box;
+		font-size: 12px;
+		border: #4F79E5 1px solid;
+		padding: 5px;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__input {
+		text-align: center;
+		width: 80px;
+		border-radius: 3px;
+	}
+
+	&__DateWrap {
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	&__date {
+		padding: 5px;
+		border-radius: 5px;
+		border: 1px solid #4F79E5;
+	}
+
+}

@@ -1,0 +1,65 @@
+.Form {
+	font-family: "Open Sans", sans-serif;
+	display: inline-block;
+	padding: 25px 35px;
+	background: #FFFFFF;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+
+	&__icon {
+		text-align: center;
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 18px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	&__input {
+		margin-top: 15px;
+		display: block;
+		width: 206px;
+	}
+
+	&__button-group {
+		margin-top: 35px;
+	}
+
+	&__button {
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		width: 100%;
+		border: none;
+		background: #3CD767;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-weight: 700;
+		border-radius: 2px;
+		padding: 6px 0;
+		cursor: pointer;
+		box-shadow: 0 4px 5px rgba(60, 215, 103, 0.4);
+		margin-top: 10px;
+		transition: 0.2s;
+
+		
+		&_second {
+			background: #4F79E6;
+			box-shadow: 0 4px 4px rgba(79, 121, 230, 0.4);
+		}
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:hover {
+			box-shadow: 0 0 0 rgba(79, 121, 230, 0);
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+}

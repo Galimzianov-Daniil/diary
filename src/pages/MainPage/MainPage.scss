@@ -1,0 +1,26 @@
+.MainPage {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	padding: 20px;
+	box-sizing: border-box;
+
+	&__timetable {
+		flex-basis: 70%;
+		margin-right: 30px;
+	}
+
+	&__TaskManager {
+		flex-basis: 30%;
+	}
+
+	&__container {
+		display: flex;
+		flex-grow: 1;
+	}
+
+	&__WeeksNavigation {
+		margin-bottom: 40px;
+	}
+
+}

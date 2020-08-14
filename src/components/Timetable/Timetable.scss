@@ -1,0 +1,14 @@
+.Timetable {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -10px;
+	margin-right: -10px;
+
+	&__card {
+		box-sizing: border-box;
+		flex-basis: calc(25% - 10px);
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+}
